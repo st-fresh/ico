@@ -1,0 +1,170 @@
+{
+  "contract_name": "Lockable",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "name": "status",
+          "type": "bool"
+        }
+      ],
+      "name": "unlockAddress",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "tokenTransfer",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "lockaddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "creationTime",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "unlockaddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "name": "status",
+          "type": "bool"
+        }
+      ],
+      "name": "lockAddress",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "lock",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "lockaddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "status",
+          "type": "bool"
+        }
+      ],
+      "name": "Locked",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "unlockedaddress",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "status",
+          "type": "bool"
+        }
+      ],
+      "name": "Unlocked",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b426000556001805461010060b060020a0319166201000033600160a060020a0316021790555b5b61036a806100436000396000f300606060405236156100725763ffffffff60e060020a60003504166360805e5a81146100745780636c4eca27146100975780638da5cb5b146100bb578063cb7bba39146100e7578063d8270dce14610117578063ec4a79cf14610139578063f226003114610169578063f83d08ba1461018c575bfe5b341561007c57fe5b610095600160a060020a036004351660243515156101b0565b005b341561009f57fe5b6100a7610238565b604080519115158252519081900360200190f35b34156100c357fe5b6100cb610246565b60408051600160a060020a039092168252519081900360200190f35b34156100ef57fe5b6100a7600160a060020a036004351661025b565b604080519115158252519081900360200190f35b341561011f57fe5b610127610270565b60408051918252519081900360200190f35b341561014157fe5b6100a7600160a060020a0360043516610276565b604080519115158252519081900360200190f35b341561017157fe5b610095600160a060020a0360043516602435151561028b565b005b341561019457fe5b6100a7610335565b604080519115158252519081900360200190f35b60015433600160a060020a039081166201000090920416146101d25760006000fd5b600160a060020a038216600081815260026020908152604091829020805460ff191685151590811790915582519384529083015280517f5c42a6eb70f030b267ab6ddbc362cfe8dbe7cc3b42c590692fa695c58aeaca2b9281900390910190a15b5b5050565b600154610100900460ff1681565b600154620100009004600160a060020a031681565b60036020526000908152604090205460ff1681565b60005481565b60026020526000908152604090205460ff1681565b60015433600160a060020a039081166201000090920416146102ad5760006000fd5b600154600160a060020a03838116620100009092041614156102cf5760006000fd5b600160a060020a038216600081815260036020908152604091829020805460ff191685151590811790915582519384529083015280517fcaf46096bdd957e9271a7e46a00ff61870b80644805049e7ea814162a2b606bc9281900390910190a15b5b5050565b60015460ff16815600a165627a7a7230582035603bb7a2d68cee93ceb826815ee495529c4485c7a3d8bebbcccdbb846759680029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504686790754
+}
