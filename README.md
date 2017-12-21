@@ -25,7 +25,7 @@ We use Truffle in order to compile and test the contracts.
 It can be installed:
 `npm install -g truffle@3.4.3`
 
-For more information visit https://truffle.readthedocs.io/en/latest/
+For more information visit http://truffleframework.com/docs/
 
 Also running node with active json-rpc is required. For testing puproses we suggest using https://github.com/ethereumjs/testrpc
 ## Usage
